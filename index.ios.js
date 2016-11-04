@@ -10,10 +10,9 @@ export default class LotsOfStyles extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.red}>Just Red</Text>
-        <Text style={styles.bigblue}>Just blue</Text>
-        <Text style={styles.red}>Just Red</Text>
-        <Text style={styles.bigblue}>Just blue</Text>
+       <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}} />
+       <View style={{width: 100, height: 100, backgroundColor: 'skyblue'}} />
+       <View style={{width: 150, height: 150, backgroundColor: 'steelblue'}} />
       </View>
     );
   }
@@ -25,14 +24,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
-  },
-  bigblue: {
-    color: 'blue',
-    fontWeight: 'bold',
-    fontSize: 30,
-  },
-  red: {
-    color: 'red',
   },
   welcome: {
     fontSize: 20,
