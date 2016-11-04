@@ -21,7 +21,8 @@ export default class LotsOfStyles extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: 'row',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
